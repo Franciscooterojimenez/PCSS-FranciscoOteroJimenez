@@ -18,7 +18,7 @@ body {
     animation: generalBackground 20s linear infinite; /* Movimiento suave del fondo */
     color: #f4f4f4; /* Color claro de texto para mejorar contraste con el fondo */
     line-height: 1.6;
-    font-size: 1.1rem;
+    font-size: 40px;
 }
 
 /* Estilo de títulos */
@@ -82,14 +82,14 @@ section p, section ul, section li {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra más ligera para mejorar visibilidad */
 }
 
-/* Ajustes para pantallas pequeñas */
-@media (max-width: 768px) {
+/* Tablets */
+@media (max-width: 1024px) {
     body {
-        font-size: 1rem;
+        font-size: 20px;
     }
 
     header h1 {
-        font-size: 2.5rem;
+        font-size: 30px;
     }
 
     nav ul {
@@ -97,6 +97,26 @@ section p, section ul, section li {
     }
 
     section h2 {
-        font-size: 2rem;
+        font-size: 30px;
     }
 }
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+}
+
